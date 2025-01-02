@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #0979b0 !important;
+  padding: 0 !important;
+}
+
+.navbar ul li a {
+  color: #fcfcf9;
+  padding: 0.8rem;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  color: #fcfcf9 !important;
+  background-color: #0cb7f2;
+}
+.dropdown-item {
+  background-color: #004173;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text h6 a {
+  color: #004173;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* CSS untuk dropdown submenu */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+.btn {
+  background-color: #004173;
+  color: #fff;
+}
+
+.footer {
+  background-color: #0979b0;
+  color: #fff;
+}
+section.header .header-content {
+  height: 100%;
+  background-color: #004173;
+  color: white;
+}
